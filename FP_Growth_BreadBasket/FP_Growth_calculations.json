@@ -1,0 +1,2314 @@
+{
+  "exercise": "bakery",
+  "name": "BREADBASKET — bakery transactions",
+  "transactions": 9465,
+  "min_support": 0.005,
+  "threshold": 48,
+  "min_confidence": 0.6,
+  "frequency_order": [
+    {
+      "item": "Coffee",
+      "support_count": 4528,
+      "support": 0.478394
+    },
+    {
+      "item": "Bread",
+      "support_count": 3097,
+      "support": 0.327205
+    },
+    {
+      "item": "Tea",
+      "support_count": 1350,
+      "support": 0.142631
+    },
+    {
+      "item": "Cake",
+      "support_count": 983,
+      "support": 0.103856
+    },
+    {
+      "item": "Pastry",
+      "support_count": 815,
+      "support": 0.086107
+    },
+    {
+      "item": "Sandwich",
+      "support_count": 680,
+      "support": 0.071844
+    },
+    {
+      "item": "Medialuna",
+      "support_count": 585,
+      "support": 0.061807
+    },
+    {
+      "item": "Hot chocolate",
+      "support_count": 552,
+      "support": 0.05832
+    },
+    {
+      "item": "Cookies",
+      "support_count": 515,
+      "support": 0.054411
+    },
+    {
+      "item": "Brownie",
+      "support_count": 379,
+      "support": 0.040042
+    },
+    {
+      "item": "Farm House",
+      "support_count": 371,
+      "support": 0.039197
+    },
+    {
+      "item": "Juice",
+      "support_count": 365,
+      "support": 0.038563
+    },
+    {
+      "item": "Muffin",
+      "support_count": 364,
+      "support": 0.038457
+    },
+    {
+      "item": "Alfajores",
+      "support_count": 344,
+      "support": 0.036344
+    },
+    {
+      "item": "Scone",
+      "support_count": 327,
+      "support": 0.034548
+    },
+    {
+      "item": "Soup",
+      "support_count": 326,
+      "support": 0.034443
+    },
+    {
+      "item": "Toast",
+      "support_count": 318,
+      "support": 0.033597
+    },
+    {
+      "item": "Scandinavian",
+      "support_count": 275,
+      "support": 0.029054
+    },
+    {
+      "item": "Truffles",
+      "support_count": 192,
+      "support": 0.020285
+    },
+    {
+      "item": "Coke",
+      "support_count": 184,
+      "support": 0.01944
+    },
+    {
+      "item": "Spanish Brunch",
+      "support_count": 172,
+      "support": 0.018172
+    },
+    {
+      "item": "Baguette",
+      "support_count": 152,
+      "support": 0.016059
+    },
+    {
+      "item": "Tiffin",
+      "support_count": 146,
+      "support": 0.015425
+    },
+    {
+      "item": "Fudge",
+      "support_count": 142,
+      "support": 0.015003
+    },
+    {
+      "item": "Jam",
+      "support_count": 142,
+      "support": 0.015003
+    },
+    {
+      "item": "Mineral water",
+      "support_count": 134,
+      "support": 0.014157
+    },
+    {
+      "item": "Jammie Dodgers",
+      "support_count": 125,
+      "support": 0.013207
+    },
+    {
+      "item": "Chicken Stew",
+      "support_count": 123,
+      "support": 0.012995
+    },
+    {
+      "item": "Hearty & Seasonal",
+      "support_count": 100,
+      "support": 0.010565
+    },
+    {
+      "item": "Salad",
+      "support_count": 99,
+      "support": 0.01046
+    },
+    {
+      "item": "Frittata",
+      "support_count": 81,
+      "support": 0.008558
+    },
+    {
+      "item": "Smoothies",
+      "support_count": 77,
+      "support": 0.008135
+    },
+    {
+      "item": "Keeping It Local",
+      "support_count": 63,
+      "support": 0.006656
+    },
+    {
+      "item": "The Nomad",
+      "support_count": 58,
+      "support": 0.006128
+    },
+    {
+      "item": "Focaccia",
+      "support_count": 54,
+      "support": 0.005705
+    },
+    {
+      "item": "Vegan mincepie",
+      "support_count": 52,
+      "support": 0.005494
+    },
+    {
+      "item": "Bakewell",
+      "support_count": 48,
+      "support": 0.005071
+    }
+  ],
+  "fp_tree_nodes_excluding_root": 2021,
+  "depth": 9,
+  "milestone_snapshots": [
+    {
+      "stage": 1,
+      "nodes": 1,
+      "depth": 1,
+      "path": [
+        "Bread"
+      ]
+    },
+    {
+      "stage": 2,
+      "nodes": 2,
+      "depth": 1,
+      "path": [
+        "Scandinavian"
+      ]
+    },
+    {
+      "stage": 3,
+      "nodes": 5,
+      "depth": 3,
+      "path": [
+        "Hot chocolate",
+        "Cookies",
+        "Jam"
+      ]
+    },
+    {
+      "stage": 5,
+      "nodes": 9,
+      "depth": 3,
+      "path": [
+        "Coffee",
+        "Bread",
+        "Pastry"
+      ]
+    },
+    {
+      "stage": 10,
+      "nodes": 19,
+      "depth": 4,
+      "path": [
+        "Medialuna",
+        "Scandinavian"
+      ]
+    },
+    {
+      "stage": 20,
+      "nodes": 26,
+      "depth": 4,
+      "path": [
+        "Bread",
+        "Medialuna"
+      ]
+    },
+    {
+      "stage": 50,
+      "nodes": 40,
+      "depth": 4,
+      "path": [
+        "Bread"
+      ]
+    },
+    {
+      "stage": 100,
+      "nodes": 71,
+      "depth": 4,
+      "path": [
+        "Coffee",
+        "Pastry"
+      ]
+    },
+    {
+      "stage": 250,
+      "nodes": 130,
+      "depth": 4,
+      "path": [
+        "Bread"
+      ]
+    },
+    {
+      "stage": 500,
+      "nodes": 214,
+      "depth": 7,
+      "path": [
+        "Coffee",
+        "Sandwich"
+      ]
+    },
+    {
+      "stage": 1000,
+      "nodes": 355,
+      "depth": 7,
+      "path": [
+        "Bread",
+        "Keeping It Local"
+      ]
+    },
+    {
+      "stage": 2000,
+      "nodes": 555,
+      "depth": 7,
+      "path": [
+        "Tea"
+      ]
+    },
+    {
+      "stage": 5000,
+      "nodes": 1106,
+      "depth": 8,
+      "path": [
+        "Coffee",
+        "Bread",
+        "Cake"
+      ]
+    },
+    {
+      "stage": 9465,
+      "nodes": 2021,
+      "depth": 9,
+      "path": [
+        "Smoothies"
+      ]
+    }
+  ],
+  "conditional": [
+    {
+      "item": "Brownie",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Hot chocolate"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Sandwich",
+            "Cookies"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cookies"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 40
+        },
+        {
+          "prefix": [
+            "Hot chocolate"
+          ],
+          "weight": 8
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Cookies"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 19
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake",
+            "Cookies"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cookies"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Hot chocolate"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Hot chocolate",
+            "Cookies"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Pastry",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cookies"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 9
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Medialuna",
+            "Hot chocolate"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Medialuna"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cookies"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Cookies"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake"
+          ],
+          "weight": 11
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry",
+            "Hot chocolate",
+            "Cookies"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Sandwich"
+          ],
+          "weight": 9
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Sandwich",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 82
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Hot chocolate"
+          ],
+          "weight": 11
+        },
+        {
+          "prefix": [
+            "Pastry"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Medialuna"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Hot chocolate"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cookies"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 16
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Cookies"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Sandwich"
+          ],
+          "weight": 3
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 186,
+        "Bread": 102,
+        "Tea": 64,
+        "Cake": 42,
+        "Hot chocolate": 39,
+        "Cookies": 24,
+        "Pastry": 23,
+        "Sandwich": 22,
+        "Medialuna": 19
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea"
+      ],
+      "conditional_nodes": 7,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Cookies",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Hot chocolate"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cake"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 60
+        },
+        {
+          "prefix": [
+            "Hot chocolate"
+          ],
+          "weight": 8
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Medialuna"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Sandwich",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 28
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Hot chocolate"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 18
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Sandwich",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Medialuna",
+            "Hot chocolate"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Medialuna"
+          ],
+          "weight": 8
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 114
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake"
+          ],
+          "weight": 21
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry",
+            "Hot chocolate"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry"
+          ],
+          "weight": 9
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Sandwich",
+            "Hot chocolate"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Sandwich"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Hot chocolate"
+          ],
+          "weight": 14
+        },
+        {
+          "prefix": [
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Pastry",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Pastry"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Medialuna"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Hot chocolate"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 32
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake",
+            "Pastry",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake"
+          ],
+          "weight": 14
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Sandwich"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Sandwich",
+            "Hot chocolate"
+          ],
+          "weight": 1
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 267,
+        "Bread": 137,
+        "Tea": 93,
+        "Cake": 69,
+        "Hot chocolate": 57,
+        "Pastry": 28,
+        "Sandwich": 27,
+        "Medialuna": 24
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea",
+        "Cake",
+        "Hot chocolate"
+      ],
+      "conditional_nodes": 25,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Hot chocolate",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Medialuna"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 38
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cake"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 8
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Medialuna"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Cake",
+            "Sandwich",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 32
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake",
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Medialuna"
+          ],
+          "weight": 16
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake"
+          ],
+          "weight": 39
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Medialuna"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry"
+          ],
+          "weight": 15
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Sandwich"
+          ],
+          "weight": 12
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 109
+        },
+        {
+          "prefix": [
+            "Pastry",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Pastry"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Medialuna"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 24
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake"
+          ],
+          "weight": 9
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Medialuna"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Cake"
+          ],
+          "weight": 21
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Medialuna"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Sandwich"
+          ],
+          "weight": 7
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 280,
+        "Bread": 127,
+        "Cake": 108,
+        "Tea": 76,
+        "Pastry": 54,
+        "Medialuna": 45,
+        "Sandwich": 42
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea",
+        "Cake",
+        "Pastry"
+      ],
+      "conditional_nodes": 25,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Medialuna",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 11
+        },
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 71
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 10
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cake"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 10
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 40
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Sandwich"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Pastry"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 15
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 193
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake"
+          ],
+          "weight": 13
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry"
+          ],
+          "weight": 31
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Sandwich"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Pastry"
+          ],
+          "weight": 28
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Sandwich"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 25
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Cake",
+            "Sandwich"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Sandwich"
+          ],
+          "weight": 3
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 333,
+        "Bread": 160,
+        "Pastry": 87,
+        "Tea": 77,
+        "Cake": 35,
+        "Sandwich": 20
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea",
+        "Pastry"
+      ],
+      "conditional_nodes": 14,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Sandwich",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 17
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 64
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cake"
+          ],
+          "weight": 8
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 5
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 57
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 9
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 36
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake"
+          ],
+          "weight": 29
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake",
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Pastry"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 212
+        },
+        {
+          "prefix": [
+            "Pastry"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 64
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "Cake"
+          ],
+          "weight": 9
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 362,
+        "Bread": 161,
+        "Tea": 136,
+        "Cake": 65,
+        "Pastry": 11
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea",
+        "Cake"
+      ],
+      "conditional_nodes": 15,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Pastry",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 149
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 12
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "Bread",
+            "Cake"
+          ],
+          "weight": 7
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 94
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 6
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 31
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea",
+            "Cake"
+          ],
+          "weight": 4
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Cake"
+          ],
+          "weight": 16
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 293
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 30
+        },
+        {
+          "prefix": [
+            "Tea",
+            "Cake"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "Cake"
+          ],
+          "weight": 11
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 450,
+        "Bread": 276,
+        "Tea": 91,
+        "Cake": 49
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea",
+        "Cake"
+      ],
+      "conditional_nodes": 15,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Cake",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread",
+            "Tea"
+          ],
+          "weight": 33
+        },
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 93
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread",
+            "Tea"
+          ],
+          "weight": 13
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 82
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Tea"
+          ],
+          "weight": 82
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 341
+        },
+        {
+          "prefix": [
+            "Tea"
+          ],
+          "weight": 97
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 518,
+        "Tea": 225,
+        "Bread": 221
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread",
+        "Tea"
+      ],
+      "conditional_nodes": 7,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Tea",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Bread"
+          ],
+          "weight": 196
+        },
+        {
+          "prefix": [
+            "Coffee",
+            "Bread"
+          ],
+          "weight": 70
+        },
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 402
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 472,
+        "Bread": 266
+      },
+      "frequent_prefix_items": [
+        "Coffee",
+        "Bread"
+      ],
+      "conditional_nodes": 3,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Bread",
+      "pattern_base": [
+        {
+          "prefix": [
+            "Coffee"
+          ],
+          "weight": 852
+        }
+      ],
+      "conditional_counts": {
+        "Coffee": 852
+      },
+      "frequent_prefix_items": [
+        "Coffee"
+      ],
+      "conditional_nodes": 1,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "Coffee",
+      "pattern_base": [],
+      "conditional_counts": {},
+      "frequent_prefix_items": [],
+      "conditional_nodes": 0,
+      "conditional_tree_exists": false
+    }
+  ],
+  "frequent_itemsets": [],
+  "csv_info": {
+    "csv_rows": 21293,
+    "removed": 786
+  },
+  "tie_break_rule": "Descending basket frequency, then item name lexicographically; duplicates in each basket removed."
+}

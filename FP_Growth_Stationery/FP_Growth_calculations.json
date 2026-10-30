@@ -1,0 +1,598 @@
+{
+  "exercise": "stationery",
+  "name": "STATIONERY — 30 transactions",
+  "transactions": 30,
+  "min_support": 0.3,
+  "threshold": 9,
+  "min_confidence": 0.6,
+  "frequency_order": [
+    {
+      "item": "тетрадь",
+      "support_count": 20,
+      "support": 0.666667
+    },
+    {
+      "item": "ручка",
+      "support_count": 19,
+      "support": 0.633333
+    },
+    {
+      "item": "карандаш",
+      "support_count": 18,
+      "support": 0.6
+    },
+    {
+      "item": "ластик",
+      "support_count": 13,
+      "support": 0.433333
+    },
+    {
+      "item": "линейка",
+      "support_count": 12,
+      "support": 0.4
+    }
+  ],
+  "fp_tree_nodes_excluding_root": 25,
+  "depth": 4,
+  "milestone_snapshots": [
+    {
+      "stage": 1,
+      "nodes": 3,
+      "depth": 3,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 2,
+      "nodes": 4,
+      "depth": 3,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 3,
+      "nodes": 7,
+      "depth": 3,
+      "path": [
+        "карандаш",
+        "ластик",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 4,
+      "nodes": 8,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 5,
+      "nodes": 9,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 6,
+      "nodes": 11,
+      "depth": 4,
+      "path": [
+        "ручка",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 7,
+      "nodes": 12,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 8,
+      "nodes": 14,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ластик",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 9,
+      "nodes": 14,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 10,
+      "nodes": 14,
+      "depth": 4,
+      "path": [
+        "карандаш",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 11,
+      "nodes": 14,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка"
+      ]
+    },
+    {
+      "stage": 12,
+      "nodes": 15,
+      "depth": 4,
+      "path": [
+        "ручка",
+        "карандаш",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 13,
+      "nodes": 17,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "карандаш",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 14,
+      "nodes": 17,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 15,
+      "nodes": 18,
+      "depth": 4,
+      "path": [
+        "ручка",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 16,
+      "nodes": 18,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 17,
+      "nodes": 19,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 18,
+      "nodes": 21,
+      "depth": 4,
+      "path": [
+        "ластик",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 19,
+      "nodes": 21,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 20,
+      "nodes": 21,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 21,
+      "nodes": 22,
+      "depth": 4,
+      "path": [
+        "ручка",
+        "карандаш",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 22,
+      "nodes": 22,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 23,
+      "nodes": 23,
+      "depth": 4,
+      "path": [
+        "карандаш",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 24,
+      "nodes": 23,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 25,
+      "nodes": 23,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ластик",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 26,
+      "nodes": 23,
+      "depth": 4,
+      "path": [
+        "ручка",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 27,
+      "nodes": 23,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш"
+      ]
+    },
+    {
+      "stage": 28,
+      "nodes": 24,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "карандаш",
+        "линейка"
+      ]
+    },
+    {
+      "stage": 29,
+      "nodes": 25,
+      "depth": 4,
+      "path": [
+        "ручка",
+        "ластик"
+      ]
+    },
+    {
+      "stage": 30,
+      "nodes": 25,
+      "depth": 4,
+      "path": [
+        "тетрадь",
+        "ручка",
+        "карандаш"
+      ]
+    }
+  ],
+  "conditional": [
+    {
+      "item": "линейка",
+      "pattern_base": [
+        {
+          "prefix": [
+            "тетрадь",
+            "ручка",
+            "карандаш"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "тетрадь",
+            "ручка"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "тетрадь"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "тетрадь",
+            "ластик"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "тетрадь",
+            "карандаш"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "карандаш",
+            "ластик"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "карандаш"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "ручка",
+            "карандаш"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "ручка"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "ластик"
+          ],
+          "weight": 1
+        }
+      ],
+      "conditional_counts": {
+        "тетрадь": 7,
+        "ручка": 5,
+        "карандаш": 5,
+        "ластик": 4
+      },
+      "frequent_prefix_items": [],
+      "conditional_nodes": 0,
+      "conditional_tree_exists": false
+    },
+    {
+      "item": "ластик",
+      "pattern_base": [
+        {
+          "prefix": [
+            "тетрадь",
+            "ручка",
+            "карандаш"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "тетрадь",
+            "ручка"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "тетрадь"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "тетрадь",
+            "карандаш"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "карандаш"
+          ],
+          "weight": 2
+        },
+        {
+          "prefix": [
+            "ручка",
+            "карандаш"
+          ],
+          "weight": 1
+        },
+        {
+          "prefix": [
+            "ручка"
+          ],
+          "weight": 1
+        }
+      ],
+      "conditional_counts": {
+        "тетрадь": 8,
+        "ручка": 6,
+        "карандаш": 6
+      },
+      "frequent_prefix_items": [],
+      "conditional_nodes": 0,
+      "conditional_tree_exists": false
+    },
+    {
+      "item": "карандаш",
+      "pattern_base": [
+        {
+          "prefix": [
+            "тетрадь",
+            "ручка"
+          ],
+          "weight": 8
+        },
+        {
+          "prefix": [
+            "тетрадь"
+          ],
+          "weight": 3
+        },
+        {
+          "prefix": [
+            "ручка"
+          ],
+          "weight": 4
+        }
+      ],
+      "conditional_counts": {
+        "ручка": 12,
+        "тетрадь": 11
+      },
+      "frequent_prefix_items": [
+        "тетрадь",
+        "ручка"
+      ],
+      "conditional_nodes": 3,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "ручка",
+      "pattern_base": [
+        {
+          "prefix": [
+            "тетрадь"
+          ],
+          "weight": 13
+        }
+      ],
+      "conditional_counts": {
+        "тетрадь": 13
+      },
+      "frequent_prefix_items": [
+        "тетрадь"
+      ],
+      "conditional_nodes": 1,
+      "conditional_tree_exists": true
+    },
+    {
+      "item": "тетрадь",
+      "pattern_base": [],
+      "conditional_counts": {},
+      "frequent_prefix_items": [],
+      "conditional_nodes": 0,
+      "conditional_tree_exists": false
+    }
+  ],
+  "frequent_itemsets": [
+    [
+      [
+        "тетрадь"
+      ],
+      20,
+      0.666667
+    ],
+    [
+      [
+        "ручка"
+      ],
+      19,
+      0.633333
+    ],
+    [
+      [
+        "карандаш"
+      ],
+      18,
+      0.6
+    ],
+    [
+      [
+        "ластик"
+      ],
+      13,
+      0.433333
+    ],
+    [
+      [
+        "линейка"
+      ],
+      12,
+      0.4
+    ],
+    [
+      [
+        "ручка",
+        "тетрадь"
+      ],
+      13,
+      0.433333
+    ],
+    [
+      [
+        "карандаш",
+        "ручка"
+      ],
+      12,
+      0.4
+    ],
+    [
+      [
+        "карандаш",
+        "тетрадь"
+      ],
+      11,
+      0.366667
+    ]
+  ],
+  "csv_info": {},
+  "tie_break_rule": "Descending basket frequency, then item name lexicographically; duplicates in each basket removed."
+}
